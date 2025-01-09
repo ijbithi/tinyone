@@ -1,0 +1,186 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 575px) { 
+	/*header start*/
+	header{
+	padding: 10px 0;
+ }
+
+	.menu ul li a{
+		font-size: 18px;
+	    padding: 10px 0 0 !important;
+	    text-align: right;
+ }
+  /*slider*/
+  .slider{
+	padding-bottom: 60px;
+}
+  .c-ind{
+    bottom: -55px;
+}
+.c-ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+.s_text{
+	margin-top: 0px;
+}
+.s_text h1{
+	font-size: 25px;
+}
+.s_text h2{
+	font-size: 18px;
+	margin: 10px 0;
+}
+.s_text p{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.s_icon ul li {
+	margin-right: 20px !important;
+}
+.s_icon ul li i{
+	font-size: 35px;
+}
+/*feature start*/
+.c-padding{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.c-h1{
+	margin-bottom: 10px;
+	font-size: 25px;  
+}
+.c-p{
+	font-size: 17px;
+	line-height: 25px;
+}
+ .f-text{
+	text-align: center;
+}
+.f-icon i{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.f-text h2{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+.f-text p{
+	letter-spacing: 0px;
+}
+/*contact*/
+.c-input{
+	height: 45px;
+	padding: 10px 10px;
+}
+.btn-c{
+	height: 38px;
+}
+.c-form{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.c-icon li{
+	margin-right: 20px !important;
+}
+.c-icon li i {
+	font-size: 35px;
+}
+/*footer strat*/
+.f-1{
+	text-align: center;
+}
+.f-2{
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+		/*header start*/
+	.menu ul li a{
+		font-size: 20px;
+	    padding: 10px 0 0 !important;
+	    text-align: right;
+ }	
+ /*feature start*/
+ .f-text{
+	text-align: center;
+}
+.f-icon i{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.f-text h2{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+.f-text p{
+	letter-spacing: 0px;
+}
+/*contact*/
+.btn-c{
+	height: 45px;
+}
+.c-form{
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.c-icon li{
+	margin-right: 25px !important;
+}
+.c-icon li i {
+	font-size: 40px;
+}
+/*footer strat*/
+footer{
+	padding-bottom: 70px;
+}
+.f-1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*header start*/
+	.menu ul li a{
+	padding: 10px 0 0 !important;
+	text-align: right;
+ }
+ /*feature start*/
+ .c-padding{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.f-item{
+	margin-top: 50px;
+}
+/*contact*/
+.c-form{
+	margin-top: 65px;
+}
+/*footer strat*/
+footer{
+	background-color: #010101;
+	padding-bottom: 100px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width:1399px) { ... }
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width:1400px){
+
+}

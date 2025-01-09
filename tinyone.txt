@@ -1,0 +1,13 @@
+black #010101
+ash #898989
+yellow #fcdb00
+header----------
+        xxl/xl/lg    md       sm/col
+ menu      22        22         16
+slaider --------------------
+        xxl/xl/lg    md       sm/col
+
+
+
+padding --------------------------
+        xxl/xl/lg    md       sm/col     
